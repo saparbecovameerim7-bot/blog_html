@@ -1,0 +1,13 @@
+{% block content %}
+<ul class="news-list">
+  {% for el in news_list %}
+  <li class="news-item">
+    <img width="200" height="180" src="{{ el.img.url }}" alt="">
+    <h2>{{el.author}}</h2>
+    <h3>{{el.title}}</h3>
+    <p class="text">{{el.body}}</p>
+    <a href="{{el.link}}" target="_blank">Источник</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+  {% include 'header.html' %}
+<body>
+  <h1>Контакты</h1>
+    <p>Свяжитесь с нами удобным способом:</p>
+    
+    <ul>
+      <li>Email: <b>saparbecovameerim@mail.com</b></li>
+      <li>Телефон: <b>+996 700 00 00 00</b></li>
+      <li>Telegram: <b>@meerim_ss</b></li>
+  </ul>
+  {% include 'footer.html' %}
+</body>
+</html>

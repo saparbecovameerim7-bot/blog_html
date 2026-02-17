@@ -1,0 +1,26 @@
+{% block footer %}
+<footer class="bg-dark text-light mt-5">
+    <div class="container py-4">
+        <div class="row">
+
+            <div class="col-md-6">
+                <h5>My Blog</h5>
+                <p>Простой блог на Django.</p>
+            </div>
+
+            <div class="col-md-6 text-md-end">
+                <p class="mb-1">Контакты:</p>
+                <p class="mb-0">Email: example@mail.com</p>
+                <p class="mb-0">Telegram: @your_username</p>
+            </div>
+
+        </div>
+
+        <hr class="bg-light">
+
+        <div class="text-center">
+            <small>© {% now "Y" %} My Blog. Все права защищены.</small>
+        </div>
+    </div>
+</footer>
+{% endblock %}

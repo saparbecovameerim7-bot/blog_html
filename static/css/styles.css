@@ -1,0 +1,13 @@
+
+.nav-link {
+  color: azure !important;
+}
+.conteiner{
+  display: flex;
+}
+body{
+  background-color: #191919 !important;
+}
+ul{
+  list-style: none;
+}
